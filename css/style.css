@@ -1,0 +1,141 @@
+body {
+  top: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: url("img/backgraound.png");
+  height: 1347px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-image {
+  padding-left: 200px;
+  padding-top: 110px;
+}
+
+.text {
+  padding-top: 30px;
+  padding-left: 251px;
+  color: white;
+  font-size: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 35px;
+  padding-top: 115px;
+  color: white;
+}
+
+.wave {
+  padding-left: 599px;
+  margin-top: -594px;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.Developed {
+  margin-bottom: 30px;
+  color: #f9efef;
+}
+.Wev,
+.Maker {
+  margin-bottom: 30px;
+  color: #f9efef;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+}
+.whatss {
+  margin-left: 48px;
+}
+.inst {
+  margin-left: 28px;
+}
+
+@media (max-width: 1300px) {
+  .wave {
+    position: static;
+    margin-left: -651px;
+    margin-top: -642px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+    flex-direction: column-reverse;
+    font-size: 30px;
+  }
+
+  .Developed {
+    margin: 5px auto;
+  }
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -317px;
+    margin-left: -24px;
+  }
+
+  .nav {
+    display: flex;
+    margin-left: 105px;
+    margin-top: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav,
+  .img,
+  .wave,
+  .Developed,
+  .wev,
+  .Maker {
+    text-align: center;
+  }
+
+  .header-image {
+    padding-left: 32px;
+  }
+
+  .text {
+    padding-left: 72px;
+  }
+
+  .whatss,
+  .inst,
+  .fac,
+  .pluss {
+    width: 55px;
+    padding-bottom: 20px;
+  }
+  .inst {
+    padding-left: 20px;
+  }
+  .fac {
+    padding-left: 47px;
+  }
+  .pluss {
+    padding-left: 49px;
+  }
+
+  .Whats,
+  .insta,
+  .Face,
+  .Plus {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+}
